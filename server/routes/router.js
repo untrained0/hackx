@@ -9,6 +9,7 @@ const controller = require('../controller/controller');
  *  @method GET /
  */
 route.get('/', services.homeRoutes);
+route.get('/upload', services.upload);
 
 /**
  *  @description add users

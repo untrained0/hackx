@@ -1,0 +1,22 @@
+.box1,
+.box2 {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    /* Center the boxes horizontally */
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* Padding inside the box */
+    text-align: center;
+    /* Center-align text */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+    max-width: 600px;
+    /* Optionally limit the maximum width of the boxes */
+}
+
+.box1 p,
+.box2 p {
+    margin: 0;
+    /* Remove margin to center text vertically */
+}
