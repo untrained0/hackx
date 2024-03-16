@@ -1,5 +1,4 @@
-<%- include('include/navbar') %>
-    <!DOCTYPE html>
+<!--     <!DOCTYPE html>
     <html lang="en">
 
     <head>
@@ -32,4 +31,41 @@
         </div>
     </body>
 
-    </html>
+    </html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <%- include('include/navbar') %>
+        <div class="container">
+            <div class="dashboard">
+                <h1>&nbsp;&nbsp;Dashboard</h1>
+                <div class="buttons">
+                    <button class="ask-button">Ask me</button>
+                    <button class="upload-button"><a href="/upload">Upload</a></button>
+                </div>
+            </div>
+            <hr>
+            <div class="section">
+                <h3>&nbsp;&nbsp;Documents in Pipeline</h3>
+                <div class="box1">
+                    <p>No documents in pipeline</p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>&nbsp;&nbsp;Latest Data Extractions</h3>
+                <div class="box2">
+                    <p>No data extractions</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

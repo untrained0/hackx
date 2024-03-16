@@ -20,7 +20,7 @@ route.get('/upload4', services.upload4);
  *  @description add users
  *  @method GET /add-user
  */
-route.get("/add-user", services.add_user);
+route.get("/Random", services.Random);
 
 /**
  *  @description for update user
@@ -40,9 +40,9 @@ route.post("/login", async (req, res) => {
     console.log(useremail);
 
     if (password === passworduser) {
-      res.status(201).redirect("ProfilePage");
+      res.status(201).redirect("Random");
     } else {
-      res.render("Random");
+      res.render("ProfilePage");
     }
   } catch (error) {
     res.status(400).send(error);

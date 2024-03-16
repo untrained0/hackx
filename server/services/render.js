@@ -14,8 +14,8 @@ exports.homeRoutes = (req, res) => {
 
 }
 
-exports.add_user = (req, res) => {
-    res.render('add_user');
+exports.Random = (req, res) => {
+    res.render('Random');
 }
 
 exports.upload = (req, res) => {
