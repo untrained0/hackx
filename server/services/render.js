@@ -17,6 +17,7 @@ exports.homeRoutes = (req, res) => {
 exports.add_user = (req, res) => {
     res.render('add_user');
 }
+
 exports.upload = (req, res) => {
     res.render('upload');
 }
@@ -44,6 +45,19 @@ exports.login = (req, res) => {
 // }
 
 
+
+
+exports.upload2 = (req, res) => {
+    res.render('upload2');
+}
+
+exports.upload3 = (req, res) => {
+    res.render('upload3');
+}
+
+exports.upload4 = (req, res) => {
+    res.render('upload4');
+}
 
 exports.update_user = (req, res) => {
     axios.get('http://localhost:3000/api/users', { params: { id: req.query.id } })
