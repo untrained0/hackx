@@ -1,0 +1,50 @@
+.circle-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Allow wrapping of items */
+}
+
+.circle-container-item {
+    text-align: center;
+    margin: 20px;
+    /* Increase spacing between items */
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+    width: 40%;
+    /* Adjust spacing between circle and heading */
+}
+
+.box{
+        width: 80%;
+            height: 250px;
+            margin: 0 auto;
+            /* Center the boxes horizontally */
+            border: 1px solid #ccc;
+            padding: 10px;
+            /* Padding inside the box */
+            text-align: center;
+            /* Center-align text */
+            box-sizing: border-box;
+            /* Include padding and border in the width calculation */
+            max-width: 600px;
+            /* Optionally limit the maximum width of the boxes */
+}
+
+.box p{
+    margin: 0;
+}

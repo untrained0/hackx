@@ -10,6 +10,10 @@ const controller = require('../controller/controller');
  */
 route.get('/', services.homeRoutes);
 route.get('/upload', services.upload);
+route.get('/upload2', services.upload2);
+ route.get('/upload3', services.upload3);
+route.get('/upload4', services.upload4);
+
 
 /**
  *  @description add users

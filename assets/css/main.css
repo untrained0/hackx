@@ -1,22 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.ask-button,
+.upload-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ask-button {
+    background-color: white;
+    color: #333;
+    border: 1px solid;
+}
+
+.upload-button {
+    background-color: black;
+    color: white;
+}
+
+.ask-button:hover,
+.upload-button:hover {
+    opacity: 0.8;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
 .box1,
 .box2 {
-    width: 80%;
-    height: 250px;
-    margin: 0 auto;
-    /* Center the boxes horizontally */
-    border: 1px solid #ccc;
-    padding: 10px;
-    /* Padding inside the box */
+    height: 200px;
+    padding: 20px;
     text-align: center;
-    /* Center-align text */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
     box-sizing: border-box;
-    /* Include padding and border in the width calculation */
-    max-width: 600px;
-    /* Optionally limit the maximum width of the boxes */
+    margin: 0 auto;
+    /* Center align horizontally */
+    max-width: 500px;
 }
 
 .box1 p,
 .box2 p {
     margin: 0;
-    /* Remove margin to center text vertically */
+    color: #666;
 }
