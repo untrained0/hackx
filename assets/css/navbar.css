@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 25%;
+    height: 100vh;
+    /* Full height of the viewport */
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+    /* For vertical layout */
+}
+
+.navbar h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-bottom: 10px;
+}
+
+.navbar ul li:last-child {
+    margin-bottom: 0;
+    /* Remove bottom margin for last item */
+}
